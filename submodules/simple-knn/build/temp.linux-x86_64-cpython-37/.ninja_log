@@ -1,0 +1,7 @@
+# ninja log v5
+0	5366	1708202767930875970	/home/yiqunm2/workspace/3dgs/sugar_mic/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/simple_knn.o	b5829956bf3a1321
+0	8155	1708202770710892731	/home/yiqunm2/workspace/3dgs/sugar_mic/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/ext.o	517ab075ca01e24b
+1	23432	1708202785994984868	/home/yiqunm2/workspace/3dgs/sugar_mic/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/spatial.o	87f8b6e107eacfea
+0	5733	1709153834925397553	/home/yiqunm2/workspace/3dgs/re-gs/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/simple_knn.o	97cd48c671e672eb
+0	8599	1709153837785412279	/home/yiqunm2/workspace/3dgs/re-gs/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/ext.o	4bde5285eea3eab5
+0	23556	1709153852745489511	/home/yiqunm2/workspace/3dgs/re-gs/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/spatial.o	ee056da660591ed6

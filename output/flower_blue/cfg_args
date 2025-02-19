@@ -1,0 +1,1 @@
+Namespace(data_device='cuda', eval=True, images='images', model_path='output/flower_blue', resolution=-1, sh_degree=0, source_path='/home/labuser/workspace/regs_code/nerf_llff_data/flower', white_background=False)
