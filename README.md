@@ -20,7 +20,7 @@ REGS
 
 2. Prepare the style reference image and original views. We use examples from [ref-npr](https://drive.google.com/drive/folders/1b6L250lrBrSxfKYPmDBHuY_EP9n7WKnA). Put the pre-trained checkpoint, reference, and original scene in the folder following the provided example here (https://drive.google.com/file/d/13IvnbM3aIm5Lrr4IddbrwqSdXjpxSRMa/view?usp=sharing)
 
-3. Stylization
+3. Stylization:
 Run the following script to train models.
 
     **Example command is in the file 'demo.sh'.**
@@ -29,7 +29,7 @@ Run the following script to train models.
     REF_STY="../refs/flower/flower_blue.png"
     python train_ref.py --eval -s ../refs/flower_llff -m ../output/flower_blue --convert_SHs_python --sh_degree 3 --start_checkpoint ../refs/flower_final.pth --iterations 3000 --densify_until_iter 1500 --ref_img ${REF_STY} --scene_id -1 --densify_grad_threshold 3e-5
     ```
-4. Rendering
+4. Rendering:
 Run the following script to render stylized novel views.
     
     **Example command is in the file 'demo.sh'.**
