@@ -16,9 +16,9 @@ Referenced-based scene stylization that edits the appearance based on a content-
 ![ReGS](/Figs/REGS.png)
 REGS
 ## Run the code
-1. This codebase takes the pre-trained 3DGS as input and perform stylization through optimization. For the target, please run the  [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) to reconstruct the scene first. 
+1. This codebase takes the pre-trained 3DGS as input and perform stylization through optimization. For the target scene, please run the  [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) to reconstruct the scene first. 
 
-2. Prepare the style reference image and original views. We use examples from [ref-npr](https://drive.google.com/drive/folders/1b6L250lrBrSxfKYPmDBHuY_EP9n7WKnA). Put the pre-trained checkpoint, reference, and original scene in the folder following the provided example here ()
+2. Prepare the style reference image and original views. We use examples from [ref-npr](https://drive.google.com/drive/folders/1b6L250lrBrSxfKYPmDBHuY_EP9n7WKnA). Put the pre-trained checkpoint, reference, and original scene in the folder following the provided example here (https://drive.google.com/file/d/13IvnbM3aIm5Lrr4IddbrwqSdXjpxSRMa/view?usp=sharing)
 
 3. Stylization
 Run the following script to train models.
@@ -49,7 +49,16 @@ If you find the code helpful in your resarch or work, please cite the following 
   pages={4035--4061},
   year={2025}
 }
-
+@Article{kerbl3Dgaussians,
+      author       = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
+      title        = {3D Gaussian Splatting for Real-Time Radiance Field Rendering},
+      journal      = {ACM Transactions on Graphics},
+      number       = {4},
+      volume       = {42},
+      month        = {July},
+      year         = {2023},
+      url          = {https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/}
+}
 ```
 ## Acknowledgements
 This code is built on [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). We thank the authors for sharing their code.
