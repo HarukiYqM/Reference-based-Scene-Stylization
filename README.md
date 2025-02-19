@@ -41,13 +41,13 @@ Run the following script to render stylized novel views.
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
-@article{mei2025regs,
-  title={ReGS: Reference-based Controllable Scene Stylization with Gaussian Splatting},
-  author={Mei, Yiqun and Xu, Jiacong and Patel, Vishal},
-  journal={Advances in Neural Information Processing Systems},
-  volume={37},
-  pages={4035--4061},
-  year={2025}
+@inproceedings{
+mei2024regs,
+title={Re{GS}: Reference-based Controllable Scene Stylization with Gaussian Splatting},
+author={Yiqun Mei and Jiacong Xu and Vishal M. Patel},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=ynJr0RW6FR}
 }
 @Article{kerbl3Dgaussians,
       author       = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
